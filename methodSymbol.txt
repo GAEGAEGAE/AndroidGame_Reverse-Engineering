@@ -1,0 +1,61 @@
+public void Initialize() { } // RVA: 0x53D270 Offset: 0x53D270
+public void RegisterSavingsModified(GameRules.OnSavingsModified del) { } // RVA: 0x54148C Offset: 0x54148C
+public void RegisterBudgetModified(GameRules.OnBudgetModified del) { } // RVA: 0x54151C Offset: 0x54151C
+public void RegisterGemsModified(GameRules.OnGemsModified del) { } // RVA: 0x5415AC Offset: 0x5415AC
+public void RegisterOnLevelUnlocked(GameRules.OnLevelUnlocked del) { } // RVA: 0x54163C Offset: 0x54163C
+private void OnEnable() { } // RVA: 0x5416CC Offset: 0x5416CC
+private void OnDisable() { } // RVA: 0x5417DC Offset: 0x5417DC
+private void RefreshRateConfig() { } // RVA: 0x541330 Offset: 0x541330
+public bool CanShowSkipLevel() { } // RVA: 0x5418EC Offset: 0x5418EC
+public bool SpendGems(int nNo) { } // RVA: 0x5419E4 Offset: 0x5419E4
+public void OnRewardOpened() { } // RVA: 0x541A14 Offset: 0x541A14
+public void OnRewardx3() { } // RVA: 0x541BD4 Offset: 0x541BD4
+public void SetDDReward() { } // RVA: 0x541D00 Offset: 0x541D00
+public bool ShouldShowDailyReward() { } // RVA: 0x541D0C Offset: 0x541D0C
+public int GetCurrentDayReward() { } // RVA: 0x541D14 Offset: 0x541D14
+public void OnGameStarted() { } // RVA: 0x5407F0 Offset: 0x5407F0
+public void AddTimedLevelReward(int nGems) { } // RVA: 0x540398 Offset: 0x540398
+public void OnRecuperateSavings() { } // RVA: 0x53E448 Offset: 0x53E448
+public void OnReplay() { } // RVA: 0x53EC14 Offset: 0x53EC14
+public void OnExitGame() { } // RVA: 0x53DAC8 Offset: 0x53DAC8
+public void OnGameEnded() { } // RVA: 0x53E470 Offset: 0x53E470
+public bool OnRouteCompletedTimedLevel() { } // RVA: 0x53E2FC Offset: 0x53E2FC
+public void OnGameEndedWin() { } // RVA: 0x53E0F0 Offset: 0x53E0F0
+public void OnSkipLevel() { } // RVA: 0x53ED04 Offset: 0x53ED04
+public void AddSavings(long savings) { } // RVA: 0x53E65C Offset: 0x53E65C
+private void OnPipeRotationToInitialFinished(GameDuct duct) { } // RVA: 0x541FC0 Offset: 0x541FC0
+public void AddSilverCoins(int nCoins) { } // RVA: 0x53E5B0 Offset: 0x53E5B0
+public void AddGems(int nGems) { } // RVA: 0x53F6F8 Offset: 0x53F6F8
+private void OnPipeRotationFinished(GameDuct duct) { } // RVA: 0x542534 Offset: 0x542534
+public void OnSpendSavings() { } // RVA: 0x53E7C8 Offset: 0x53E7C8
+public void SpendFromSavings(long nSavings) { } // RVA: 0x54263C Offset: 0x54263C
+public bool CanRotateForCost(int nCost) { } // RVA: 0x54274C Offset: 0x54274C
+public long GetSpentMoney() { } // RVA: 0x541D24 Offset: 0x541D24
+public long GetRemainingBudget() { } // RVA: 0x541D1C Offset: 0x541D1C
+public int GetAvailableBudget() { } // RVA: 0x542764 Offset: 0x542764
+public int GetGoalBudget() { } // RVA: 0x5427E0 Offset: 0x5427E0
+public int GetStarsEarned() { } // RVA: 0x5427E8 Offset: 0x5427E8
+public long GetSavings() { } // RVA: 0x53EA20 Offset: 0x53EA20
+public long GetSavingsEarned() { } // RVA: 0x5427F0 Offset: 0x5427F0
+public long GetGemsNo() { } // RVA: 0x5427F8 Offset: 0x5427F8
+public int GetCurrentLevelNo() { } // RVA: 0x542800 Offset: 0x542800
+public string GetDisplayCurrentLevelNo() { } // RVA: 0x542808 Offset: 0x542808
+public void GoToLevel(int nLevel) { } // RVA: 0x53DC3C Offset: 0x53DC3C
+public void OnGoToNextLevel() { } // RVA: 0x53EFB4 Offset: 0x53EFB4
+public bool DoesPlayerAdvance() { } // RVA: 0x53D944 Offset: 0x53D944
+public void OnDontRate(bool bRate) { } // RVA: 0x5428EC Offset: 0x5428EC
+public void OnRateGame() { } // RVA: 0x54299C Offset: 0x54299C
+public void OnRateLater() { } // RVA: 0x542A60 Offset: 0x542A60
+public bool ShouldShowRateWindow() { } // RVA: 0x542A64 Offset: 0x542A64
+public bool IsRefinaryLevel() { } // RVA: 0x5403A0 Offset: 0x5403A0
+public int GetGemsReward() { } // RVA: 0x542B4C Offset: 0x542B4C
+public bool IsHardLevel() { } // RVA: 0x542B54 Offset: 0x542B54
+public float GetHardLevelTime() { } // RVA: 0x542C08 Offset: 0x542C08
+public void BuyGate(int nGateID) { } // RVA: 0x53F238 Offset: 0x53F238
+public bool CanBuyGate(int nGateID) { } // RVA: 0x542F24 Offset: 0x542F24
+private void SignInToPlayGamesServices() { } // RVA: 0x541208 Offset: 0x541208
+public void ReportLeaderBoardScore(long nScore) { } // RVA: 0x542FF0 Offset: 0x542FF0
+public void IncrementAchievement(string ach, int nProgress) { } // RVA: 0x543160 Offset: 0x543160
+public void UnlockAchievement(string ach) { } // RVA: 0x543308 Offset: 0x543308
+public void ShowLeaderBoardUI() { } // RVA: 0x543470 Offset: 0x543470
+public void ShowAchievementsUI() { } // RVA: 0x543488 Offset: 0x5434888

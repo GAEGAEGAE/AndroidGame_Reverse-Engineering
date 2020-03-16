@@ -1,0 +1,1264 @@
+// public void Initialize() { } // RVA: 0x53D270 Offset: 0x53D270
+
+var offset = 0x53D270;
+var Initialize = il2cpp.add(offset);
+
+Interceptor.attach(Initialize,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] Initialize Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("");
+    }
+});
+
+
+
+// public void RegisterSavingsModified(GameRules.OnSavingsModified del) { } // RVA: 0x54148C Offset: 0x54148C
+
+var offset = 0x54148C;
+var RegisterSavingsModified = il2cpp.add(offset);
+
+Interceptor.attach(RegisterSavingsModified,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] RegisterSavingsModified Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+        console.log("    args[1] : " + args[1]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("");
+    }
+});
+
+
+
+// public void RegisterBudgetModified(GameRules.OnBudgetModified del) { } // RVA: 0x54151C Offset: 0x54151C
+
+var offset = 0x54151C;
+var RegisterBudgetModified = il2cpp.add(offset);
+
+Interceptor.attach(RegisterBudgetModified,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] RegisterBudgetModified Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+        console.log("    args[1] : " + args[1]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("");
+    }
+});
+
+
+
+// public void RegisterGemsModified(GameRules.OnGemsModified del) { } // RVA: 0x5415AC Offset: 0x5415AC
+
+var offset = 0x5415AC;
+var RegisterGemsModified = il2cpp.add(offset);
+
+Interceptor.attach(RegisterGemsModified,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] RegisterGemsModified Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+        console.log("    args[1] : " + args[1]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("");
+    }
+});
+
+
+
+// public void RegisterOnLevelUnlocked(GameRules.OnLevelUnlocked del) { } // RVA: 0x54163C Offset: 0x54163C
+
+var offset = 0x54163C;
+var RegisterOnLevelUnlocked = il2cpp.add(offset);
+
+Interceptor.attach(RegisterOnLevelUnlocked,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] RegisterOnLevelUnlocked Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+        console.log("    args[1] : " + args[1]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("");
+    }
+});
+
+
+
+// private void OnEnable() { } // RVA: 0x5416CC Offset: 0x5416CC
+
+var offset = 0x5416CC;
+var OnEnable = il2cpp.add(offset);
+
+Interceptor.attach(OnEnable,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] OnEnable Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("");
+    }
+});
+
+
+
+// private void OnDisable() { } // RVA: 0x5417DC Offset: 0x5417DC
+
+var offset = 0x5417DC;
+var OnDisable = il2cpp.add(offset);
+
+Interceptor.attach(OnDisable,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] OnDisable Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("");
+    }
+});
+
+
+
+// private void RefreshRateConfig() { } // RVA: 0x541330 Offset: 0x541330
+
+var offset = 0x541330;
+var RefreshRateConfig = il2cpp.add(offset);
+
+Interceptor.attach(RefreshRateConfig,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] RefreshRateConfig Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("");
+    }
+});
+
+
+
+// public bool CanShowSkipLevel() { } // RVA: 0x5418EC Offset: 0x5418EC
+
+var offset = 0x5418EC;
+var CanShowSkipLevel = il2cpp.add(offset);
+
+Interceptor.attach(CanShowSkipLevel,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] CanShowSkipLevel Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("    retVal : " + retVal);
+        console.log("");
+    }
+});
+
+
+
+// public bool SpendGems(int nNo) { } // RVA: 0x5419E4 Offset: 0x5419E4
+
+var offset = 0x5419E4;
+var SpendGems = il2cpp.add(offset);
+
+Interceptor.attach(SpendGems,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] SpendGems Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+        console.log("    args[1] : " + args[1]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("    retVal : " + retVal);
+        console.log("");
+    }
+});
+
+
+
+// public void OnRewardOpened() { } // RVA: 0x541A14 Offset: 0x541A14
+
+var offset = 0x541A14;
+var OnRewardOpened = il2cpp.add(offset);
+
+Interceptor.attach(OnRewardOpened,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] OnRewardOpened Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("");
+    }
+});
+
+
+
+// public void OnRewardx3() { } // RVA: 0x541BD4 Offset: 0x541BD4
+
+var offset = 0x541BD4;
+var OnRewardx3 = il2cpp.add(offset);
+
+Interceptor.attach(OnRewardx3,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] OnRewardx3 Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("");
+    }
+});
+
+
+
+// public void SetDDReward() { } // RVA: 0x541D00 Offset: 0x541D00
+
+var offset = 0x541D00;
+var SetDDReward = il2cpp.add(offset);
+
+Interceptor.attach(SetDDReward,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] SetDDReward Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("");
+    }
+});
+
+
+
+// public bool ShouldShowDailyReward() { } // RVA: 0x541D0C Offset: 0x541D0C
+
+var offset = 0x541D0C;
+var ShouldShowDailyReward = il2cpp.add(offset);
+
+Interceptor.attach(ShouldShowDailyReward,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] ShouldShowDailyReward Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("    retVal : " + retVal);
+        console.log("");
+    }
+});
+
+
+
+// public int GetCurrentDayReward() { } // RVA: 0x541D14 Offset: 0x541D14
+
+var offset = 0x541D14;
+var GetCurrentDayReward = il2cpp.add(offset);
+
+Interceptor.attach(GetCurrentDayReward,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] GetCurrentDayReward Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("    retVal : " + retVal);
+        console.log("");
+    }
+});
+
+
+
+// public void OnGameStarted() { } // RVA: 0x5407F0 Offset: 0x5407F0
+
+var offset = 0x5407F0;
+var OnGameStarted = il2cpp.add(offset);
+
+Interceptor.attach(OnGameStarted,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] OnGameStarted Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("");
+    }
+});
+
+
+
+// public void AddTimedLevelReward(int nGems) { } // RVA: 0x540398 Offset: 0x540398
+
+var offset = 0x540398;
+var AddTimedLevelReward = il2cpp.add(offset);
+
+Interceptor.attach(AddTimedLevelReward,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] AddTimedLevelReward Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+        console.log("    args[1] : " + args[1]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("");
+    }
+});
+
+
+
+// public void OnRecuperateSavings() { } // RVA: 0x53E448 Offset: 0x53E448
+
+var offset = 0x53E448;
+var OnRecuperateSavings = il2cpp.add(offset);
+
+Interceptor.attach(OnRecuperateSavings,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] OnRecuperateSavings Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("");
+    }
+});
+
+
+
+// public void OnReplay() { } // RVA: 0x53EC14 Offset: 0x53EC14
+
+var offset = 0x53EC14;
+var OnReplay = il2cpp.add(offset);
+
+Interceptor.attach(OnReplay,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] OnReplay Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("");
+    }
+});
+
+
+
+// public void OnExitGame() { } // RVA: 0x53DAC8 Offset: 0x53DAC8
+
+var offset = 0x53DAC8;
+var OnExitGame = il2cpp.add(offset);
+
+Interceptor.attach(OnExitGame,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] OnExitGame Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("");
+    }
+});
+
+
+
+// public void OnGameEnded() { } // RVA: 0x53E470 Offset: 0x53E470
+
+var offset = 0x53E470;
+var OnGameEnded = il2cpp.add(offset);
+
+Interceptor.attach(OnGameEnded,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] OnGameEnded Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("");
+    }
+});
+
+
+
+// public bool OnRouteCompletedTimedLevel() { } // RVA: 0x53E2FC Offset: 0x53E2FC
+
+var offset = 0x53E2FC;
+var OnRouteCompletedTimedLevel = il2cpp.add(offset);
+
+Interceptor.attach(OnRouteCompletedTimedLevel,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] OnRouteCompletedTimedLevel Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("    retVal : " + retVal);
+        console.log("");
+    }
+});
+
+
+
+// public void OnGameEndedWin() { } // RVA: 0x53E0F0 Offset: 0x53E0F0
+
+var offset = 0x53E0F0;
+var OnGameEndedWin = il2cpp.add(offset);
+
+Interceptor.attach(OnGameEndedWin,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] OnGameEndedWin Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("");
+    }
+});
+
+
+
+// public void OnSkipLevel() { } // RVA: 0x53ED04 Offset: 0x53ED04
+
+var offset = 0x53ED04;
+var OnSkipLevel = il2cpp.add(offset);
+
+Interceptor.attach(OnSkipLevel,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] OnSkipLevel Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("");
+    }
+});
+
+
+
+// public void AddSavings(long savings) { } // RVA: 0x53E65C Offset: 0x53E65C
+
+var offset = 0x53E65C;
+var AddSavings = il2cpp.add(offset);
+
+Interceptor.attach(AddSavings,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] AddSavings Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+        console.log("    args[1] : " + args[1]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("");
+    }
+});
+
+
+
+// private void OnPipeRotationToInitialFinished(GameDuct duct) { } // RVA: 0x541FC0 Offset: 0x541FC0
+
+var offset = 0x541FC0;
+var OnPipeRotationToInitialFinished = il2cpp.add(offset);
+
+Interceptor.attach(OnPipeRotationToInitialFinished,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] OnPipeRotationToInitialFinished Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+        console.log("    args[1] : " + args[1]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("");
+    }
+});
+
+
+
+// public void AddSilverCoins(int nCoins) { } // RVA: 0x53E5B0 Offset: 0x53E5B0
+
+var offset = 0x53E5B0;
+var AddSilverCoins = il2cpp.add(offset);
+
+Interceptor.attach(AddSilverCoins,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] AddSilverCoins Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+        console.log("    args[1] : " + args[1]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("");
+    }
+});
+
+
+
+// public void AddGems(int nGems) { } // RVA: 0x53F6F8 Offset: 0x53F6F8
+
+var offset = 0x53F6F8;
+var AddGems = il2cpp.add(offset);
+
+Interceptor.attach(AddGems,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] AddGems Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+        console.log("    args[1] : " + args[1]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("");
+    }
+});
+
+
+
+// private void OnPipeRotationFinished(GameDuct duct) { } // RVA: 0x542534 Offset: 0x542534
+
+var offset = 0x542534;
+var OnPipeRotationFinished = il2cpp.add(offset);
+
+Interceptor.attach(OnPipeRotationFinished,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] OnPipeRotationFinished Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+        console.log("    args[1] : " + args[1]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("");
+    }
+});
+
+
+
+// public void OnSpendSavings() { } // RVA: 0x53E7C8 Offset: 0x53E7C8
+
+var offset = 0x53E7C8;
+var OnSpendSavings = il2cpp.add(offset);
+
+Interceptor.attach(OnSpendSavings,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] OnSpendSavings Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("");
+    }
+});
+
+
+
+// public void SpendFromSavings(long nSavings) { } // RVA: 0x54263C Offset: 0x54263C
+
+var offset = 0x54263C;
+var SpendFromSavings = il2cpp.add(offset);
+
+Interceptor.attach(SpendFromSavings,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] SpendFromSavings Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+        console.log("    args[1] : " + args[1]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("");
+    }
+});
+
+
+
+// public bool CanRotateForCost(int nCost) { } // RVA: 0x54274C Offset: 0x54274C
+
+var offset = 0x54274C;
+var CanRotateForCost = il2cpp.add(offset);
+
+Interceptor.attach(CanRotateForCost,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] CanRotateForCost Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+        console.log("    args[1] : " + args[1]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("    retVal : " + retVal);
+        console.log("");
+    }
+});
+
+
+
+// public long GetSpentMoney() { } // RVA: 0x541D24 Offset: 0x541D24
+
+var offset = 0x541D24;
+var GetSpentMoney = il2cpp.add(offset);
+
+Interceptor.attach(GetSpentMoney,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] GetSpentMoney Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("    retVal : " + retVal);
+        console.log("");
+    }
+});
+
+
+
+// public long GetRemainingBudget() { } // RVA: 0x541D1C Offset: 0x541D1C
+
+var offset = 0x541D1C;
+var GetRemainingBudget = il2cpp.add(offset);
+
+Interceptor.attach(GetRemainingBudget,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] GetRemainingBudget Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("    retVal : " + retVal);
+        console.log("");
+    }
+});
+
+
+
+// public int GetAvailableBudget() { } // RVA: 0x542764 Offset: 0x542764
+
+var offset = 0x542764;
+var GetAvailableBudget = il2cpp.add(offset);
+
+Interceptor.attach(GetAvailableBudget,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] GetAvailableBudget Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("    retVal : " + retVal);
+        console.log("");
+    }
+});
+
+
+
+// public int GetGoalBudget() { } // RVA: 0x5427E0 Offset: 0x5427E0
+
+var offset = 0x5427E0;
+var GetGoalBudget = il2cpp.add(offset);
+
+Interceptor.attach(GetGoalBudget,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] GetGoalBudget Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("    retVal : " + retVal);
+        console.log("");
+    }
+});
+
+
+
+// public int GetStarsEarned() { } // RVA: 0x5427E8 Offset: 0x5427E8
+
+var offset = 0x5427E8;
+var GetStarsEarned = il2cpp.add(offset);
+
+Interceptor.attach(GetStarsEarned,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] GetStarsEarned Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("    retVal : " + retVal);
+        console.log("");
+    }
+});
+
+
+
+// public long GetSavings() { } // RVA: 0x53EA20 Offset: 0x53EA20
+
+var offset = 0x53EA20;
+var GetSavings = il2cpp.add(offset);
+
+Interceptor.attach(GetSavings,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] GetSavings Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("    retVal : " + retVal);
+        console.log("");
+    }
+});
+
+
+
+// public long GetSavingsEarned() { } // RVA: 0x5427F0 Offset: 0x5427F0
+
+var offset = 0x5427F0;
+var GetSavingsEarned = il2cpp.add(offset);
+
+Interceptor.attach(GetSavingsEarned,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] GetSavingsEarned Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("    retVal : " + retVal);
+        console.log("");
+    }
+});
+
+
+
+// public long GetGemsNo() { } // RVA: 0x5427F8 Offset: 0x5427F8
+
+var offset = 0x5427F8;
+var GetGemsNo = il2cpp.add(offset);
+
+Interceptor.attach(GetGemsNo,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] GetGemsNo Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("    retVal : " + retVal);
+        console.log("");
+    }
+});
+
+
+
+// public int GetCurrentLevelNo() { } // RVA: 0x542800 Offset: 0x542800
+
+var offset = 0x542800;
+var GetCurrentLevelNo = il2cpp.add(offset);
+
+Interceptor.attach(GetCurrentLevelNo,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] GetCurrentLevelNo Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("    retVal : " + retVal);
+        console.log("");
+    }
+});
+
+
+
+// public string GetDisplayCurrentLevelNo() { } // RVA: 0x542808 Offset: 0x542808
+
+var offset = 0x542808;
+var GetDisplayCurrentLevelNo = il2cpp.add(offset);
+
+Interceptor.attach(GetDisplayCurrentLevelNo,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] GetDisplayCurrentLevelNo Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("    retVal : " + retVal);
+        console.log("");
+    }
+});
+
+
+
+// public void GoToLevel(int nLevel) { } // RVA: 0x53DC3C Offset: 0x53DC3C
+
+var offset = 0x53DC3C;
+var GoToLevel = il2cpp.add(offset);
+
+Interceptor.attach(GoToLevel,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] GoToLevel Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+        console.log("    args[1] : " + args[1]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("");
+    }
+});
+
+
+
+// public void OnGoToNextLevel() { } // RVA: 0x53EFB4 Offset: 0x53EFB4
+
+var offset = 0x53EFB4;
+var OnGoToNextLevel = il2cpp.add(offset);
+
+Interceptor.attach(OnGoToNextLevel,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] OnGoToNextLevel Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("");
+    }
+});
+
+
+
+// public bool DoesPlayerAdvance() { } // RVA: 0x53D944 Offset: 0x53D944
+
+var offset = 0x53D944;
+var DoesPlayerAdvance = il2cpp.add(offset);
+
+Interceptor.attach(DoesPlayerAdvance,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] DoesPlayerAdvance Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("    retVal : " + retVal);
+        console.log("");
+    }
+});
+
+
+
+// public void OnDontRate(bool bRate) { } // RVA: 0x5428EC Offset: 0x5428EC
+
+var offset = 0x5428EC;
+var OnDontRate = il2cpp.add(offset);
+
+Interceptor.attach(OnDontRate,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] OnDontRate Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+        console.log("    args[1] : " + args[1]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("");
+    }
+});
+
+
+
+// public void OnRateGame() { } // RVA: 0x54299C Offset: 0x54299C
+
+var offset = 0x54299C;
+var OnRateGame = il2cpp.add(offset);
+
+Interceptor.attach(OnRateGame,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] OnRateGame Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("");
+    }
+});
+
+
+
+// public void OnRateLater() { } // RVA: 0x542A60 Offset: 0x542A60
+
+var offset = 0x542A60;
+var OnRateLater = il2cpp.add(offset);
+
+Interceptor.attach(OnRateLater,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] OnRateLater Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("");
+    }
+});
+
+
+
+// public bool ShouldShowRateWindow() { } // RVA: 0x542A64 Offset: 0x542A64
+
+var offset = 0x542A64;
+var ShouldShowRateWindow = il2cpp.add(offset);
+
+Interceptor.attach(ShouldShowRateWindow,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] ShouldShowRateWindow Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("    retVal : " + retVal);
+        console.log("");
+    }
+});
+
+
+
+// public bool IsRefinaryLevel() { } // RVA: 0x5403A0 Offset: 0x5403A0
+
+var offset = 0x5403A0;
+var IsRefinaryLevel = il2cpp.add(offset);
+
+Interceptor.attach(IsRefinaryLevel,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] IsRefinaryLevel Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("    retVal : " + retVal);
+        console.log("");
+    }
+});
+
+
+
+// public int GetGemsReward() { } // RVA: 0x542B4C Offset: 0x542B4C
+
+var offset = 0x542B4C;
+var GetGemsReward = il2cpp.add(offset);
+
+Interceptor.attach(GetGemsReward,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] GetGemsReward Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("    retVal : " + retVal);
+        console.log("");
+    }
+});
+
+
+
+// public bool IsHardLevel() { } // RVA: 0x542B54 Offset: 0x542B54
+
+var offset = 0x542B54;
+var IsHardLevel = il2cpp.add(offset);
+
+Interceptor.attach(IsHardLevel,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] IsHardLevel Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("    retVal : " + retVal);
+        console.log("");
+    }
+});
+
+
+
+// public float GetHardLevelTime() { } // RVA: 0x542C08 Offset: 0x542C08
+
+var offset = 0x542C08;
+var GetHardLevelTime = il2cpp.add(offset);
+
+Interceptor.attach(GetHardLevelTime,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] GetHardLevelTime Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("    retVal : " + retVal);
+        console.log("");
+    }
+});
+
+
+
+// public void BuyGate(int nGateID) { } // RVA: 0x53F238 Offset: 0x53F238
+
+var offset = 0x53F238;
+var BuyGate = il2cpp.add(offset);
+
+Interceptor.attach(BuyGate,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] BuyGate Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+        console.log("    args[1] : " + args[1]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("");
+    }
+});
+
+
+
+// public bool CanBuyGate(int nGateID) { } // RVA: 0x542F24 Offset: 0x542F24
+
+var offset = 0x542F24;
+var CanBuyGate = il2cpp.add(offset);
+
+Interceptor.attach(CanBuyGate,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] CanBuyGate Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+        console.log("    args[1] : " + args[1]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("    retVal : " + retVal);
+        console.log("");
+    }
+});
+
+
+
+// private void SignInToPlayGamesServices() { } // RVA: 0x541208 Offset: 0x541208
+
+var offset = 0x541208;
+var SignInToPlayGamesServices = il2cpp.add(offset);
+
+Interceptor.attach(SignInToPlayGamesServices,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] SignInToPlayGamesServices Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("");
+    }
+});
+
+
+
+// public void ReportLeaderBoardScore(long nScore) { } // RVA: 0x542FF0 Offset: 0x542FF0
+
+var offset = 0x542FF0;
+var ReportLeaderBoardScore = il2cpp.add(offset);
+
+Interceptor.attach(ReportLeaderBoardScore,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] ReportLeaderBoardScore Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+        console.log("    args[1] : " + args[1]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("");
+    }
+});
+
+
+
+// public void IncrementAchievement(string ach, int nProgress) { } // RVA: 0x543160 Offset: 0x543160
+
+var offset = 0x543160;
+var IncrementAchievement = il2cpp.add(offset);
+
+Interceptor.attach(IncrementAchievement,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] IncrementAchievement Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+        console.log("    args[1] : " + args[1]);
+        console.log("    args[2] : " + args[2]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("");
+    }
+});
+
+
+
+// public void UnlockAchievement(string ach) { } // RVA: 0x543308 Offset: 0x543308
+
+var offset = 0x543308;
+var UnlockAchievement = il2cpp.add(offset);
+
+Interceptor.attach(UnlockAchievement,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] UnlockAchievement Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+        console.log("    args[1] : " + args[1]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("");
+    }
+});
+
+
+
+// public void ShowLeaderBoardUI() { } // RVA: 0x543470 Offset: 0x543470
+
+var offset = 0x543470;
+var ShowLeaderBoardUI = il2cpp.add(offset);
+
+Interceptor.attach(ShowLeaderBoardUI,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] ShowLeaderBoardUI Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("");
+    }
+});
+
+
+
+// public void ShowAchievementsUI() { } // RVA: 0x543488 Offset: 0x5434888
+
+var offset = 0x5434888;
+var ShowAchievementsUI = il2cpp.add(offset);
+
+Interceptor.attach(ShowAchievementsUI,
+{
+    onEnter: function(args)
+    {
+        console.log("[+] ShowAchievementsUI Hook onEnter()");
+        console.log("    args[0] : " + args[0]);
+    },
+    onLeave: function(retVal)
+    {
+        console.log("");
+    }
+});
+
+
+
