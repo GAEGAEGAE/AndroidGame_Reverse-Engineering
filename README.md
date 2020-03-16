@@ -32,18 +32,24 @@ STEP3.
 
 	Interceptor.attach(CanShowSkipLevel,
 	{
-    		onEnter: function(args)
-    		{
-        		console.log("[+] CanShowSkipLevel Hook onEnter()");
-        		console.log("    args[0] : " + args[0]);
-    		},
-    	onLeave: function(retVal)
-    		{
-        		console.log("    retVal : " + retVal);
-        		console.log("");
-    		}
+    	    onEnter: function(args)
+    	    {
+                console.log("[+] CanShowSkipLevel Hook onEnter()");
+        	console.log("    args[0] : " + args[0]);
+    	    },
+    	    onLeave: function(retVal)
+    	    {
+         	console.log("    retVal : " + retVal);
+       		console.log("");
+    	    }
 	});
 
+STEP4.
+   Copy and Paste output script. 
+   
+  
+  
+Enjoy It!!!
 
   
   
